@@ -1,0 +1,7 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "https://prestigesites-backend1.onrender.com/api/$1" }
+  ]
+}
